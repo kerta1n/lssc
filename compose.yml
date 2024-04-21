@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+    librespot-snapserver:
+        container_name: snapserver
+        network_mode: host
+        volumes:
+            - /tmp/airplay.pipe
+            - ./data/snapserver.conf:/etc/snapserver.conf:ro
+            - ./data/snapweb:/usr/share/snapserver/snapweb
+        image: kertain/lssc:028
+        environment:
+            - TZ=America/Indiana/Indianapolis
