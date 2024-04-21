@@ -1,7 +1,7 @@
 # lssc
-Librespot + Snapcast image to run multi-room Spotify casting
+LibreSpot + SnapCast image to run multi-room Spotify casting
 
-Taken from both https://github.com/djmaze/librespot-snapserver and https://github.com/Saiyato/snapserver_docker
+This is a multi-arch image, code taken from both https://github.com/djmaze/librespot-snapserver and https://github.com/Saiyato/snapserver_docker
 
 # Usage for docker compose
 Clone this repo, configure data/snapserver.conf with your Spotify Premium details, and run `docker compose up -d`
