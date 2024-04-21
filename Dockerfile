@@ -10,8 +10,9 @@ RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/community/" >> /etc/apk/rep
 
 RUN apk add --no-cache bash snapcast-server=${SNAPCAST_VERSION} librespot=${LIBRESPOT_VERSION} sed
 
-COPY run.sh /
-CMD ["/run.sh"]
+#COPY run.sh /
+#CMD ["/run.sh"]
 
-ENV DEVICE_NAME=Snapcast
+#ENV DEVICE_NAME=Snapcast
+CMD snapserver -c /etc/snapserver.conf
 EXPOSE 1704/tcp 1705/tcp
