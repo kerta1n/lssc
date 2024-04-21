@@ -16,4 +16,6 @@ Change ./data/ to /mnt/user/appdata/lssc/data/ (lines 8 & 9), and wget the appro
 Compose up and you're set
 
 # Snapclient
-https://github.com/kerta1n/snapclient-docker
+[Github repo]([url](https://github.com/kerta1n/snapclient-docker))
+
+[Dockerhub]([url](https://hub.docker.com/r/kertain/snapclient-docker))
