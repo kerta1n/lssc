@@ -7,6 +7,6 @@ services:
             - /tmp/airplay.pipe
             - ./data/snapserver.conf:/etc/snapserver.conf:ro
             - ./data/snapweb:/usr/share/snapserver/snapweb
-        image: kertain/lssc:028
         environment:
             - TZ=America/Indiana/Indianapolis
+        image: kertain/lssc:028
