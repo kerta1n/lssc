@@ -1,5 +1,7 @@
 # lssc
-LibreSpot + SnapCast image to run multi-room Spotify casting
+LibreSpot + SnapCast server image to run multi-room Spotify casting
+
+[Dockerhub](https://hub.docker.com/r/kertain/lssc)
 
 This is a multi-arch image, code taken from both https://github.com/djmaze/librespot-snapserver and https://github.com/Saiyato/snapserver_docker
 
