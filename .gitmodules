@@ -1,0 +1,3 @@
+[submodule "data/snapweb"]
+	path = data/snapweb
+	url = https://github.com/badaix/snapweb

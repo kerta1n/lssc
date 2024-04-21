@@ -8,8 +8,11 @@ Clone this repo, and run `docker compose up -d`
 
 # Usage for UNRAID
 Install the docker compose plugin from APPS, and go back to DOCKER.
+
 Scroll all the way down > create stack > edit stack > edit files > copy paste from compose.yml
-Change ./data/ to /mnt/user/appdata/lssc/ (lines 8 & 9), and wget the appropriate files from this repo to lssc dir
+
+Change ./data/ to /mnt/user/appdata/lssc/data/ (lines 8 & 9), and wget the appropriate files from this repo to the data dir
+
 Compose up and you're set
 
 # Snapclient
