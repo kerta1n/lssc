@@ -8,7 +8,7 @@ ARG SNAPCAST_VERSION=0.28.0-r2
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/repositories
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/community/" >> /etc/apk/repositories
 
-RUN apk add --no-cache bash snapcast-server=${SNAPCAST_VERSION} librespot=${LIBRESPOT_VERSION} sed
+RUN apk add --no-cache bash snapcast-server=${SNAPCAST_VERSION} librespot=${LIBRESPOT_VERSION} shairport-sync alsa-lib avahi avahi-libs glib libconfig libcrypto3 libgcc libpulse musl pipewire-libs popt soxr sed
 
 #COPY run.sh /
 #CMD ["/run.sh"]
