@@ -4,14 +4,13 @@ LABEL maintainer="kerta1n"
 
 ARG LIBRESPOT_VERSION=0.4.2-r4
 ARG SNAPCAST_VERSION=0.28.0-r2
-ARG SHAIRPORT_VERSION=4.3.4-r0
+#ARG SHAIRPORT_VERSION=
 
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/repositories
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/community/" >> /etc/apk/repositories
 
-RUN apk add --no-cache bash snapcast-server=${SNAPCAST_VERSION} librespot=${LIBRESPOT_VERSION} shairport-sync=${SHAIRPORT_VERSION} sed
+RUN apk add --no-cache bash snapcast-server=${SNAPCAST_VERSION} librespot=${LIBRESPOT_VERSION} sed
 
-#  alsa-lib avahi avahi-libs glib libconfig libcrypto3 libgcc libpulse musl pipewire-libs popt soxr
 #COPY run.sh /
 #CMD ["/run.sh"]
 
