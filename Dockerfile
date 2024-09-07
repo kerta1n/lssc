@@ -3,7 +3,7 @@ FROM alpine:latest
 LABEL maintainer="kerta1n"
 
 ARG LIBRESPOT_VERSION=0.4.2-r4
-ARG SNAPCAST_VERSION=0.28.0-r2
+ARG SNAPCAST_VERSION=0.29.0-r0
 #ARG SHAIRPORT_VERSION=
 
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/repositories
