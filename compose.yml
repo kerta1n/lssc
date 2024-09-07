@@ -9,4 +9,4 @@ services:
             - ./data/snapweb:/usr/share/snapserver/snapweb
         environment:
             - TZ=America/Indiana/Indianapolis
-        image: kertain/lssc:028
+        image: kertain/lssc:029
