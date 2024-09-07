@@ -17,6 +17,8 @@ Change ./data/ to /mnt/user/appdata/lssc/data/ (lines 8 & 9), and wget the appro
 
 Compose up and you're set
 
+https://openwrt.org/docs/guide-user/virtualization/qemu_host
+
 # Snapclient
 [Github Repo](https://github.com/kerta1n/snapclient-docker)
 
