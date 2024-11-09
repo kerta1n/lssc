@@ -9,7 +9,7 @@ ARG SHAIRPORT_VERSION=4.3.4-r0
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/repositories
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/community/" >> /etc/apk/repositories
 
-RUN apk add --no-cache bash snapcast-server=${SNAPCAST_VERSION} librespot=${LIBRESPOT_VERSION} shairport-sync=${SHAIRPORT_VERSION} $sed
+RUN apk add --no-cache bash snapcast-server=${SNAPCAST_VERSION} librespot=${LIBRESPOT_VERSION} shairport-sync=${SHAIRPORT_VERSION} sed
 
 #COPY run.sh /
 #CMD ["/run.sh"]
