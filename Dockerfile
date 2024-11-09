@@ -16,4 +16,5 @@ RUN apk add --no-cache bash snapcast-server=${SNAPCAST_VERSION} librespot=${LIBR
 
 #ENV DEVICE_NAME=Snapcast
 CMD snapserver -c /etc/snapserver.conf
-EXPOSE 1704/tcp 1705/tcp 1780 319-320/udp  3689/tcp 5353 5000/tcp 7000/tcp 6000-6009/udp 32768-60999/tcp 32768-60999/udp
+EXPOSE 1704/tcp 1705/tcp 1780 
+EXPOSE 319-320/udp  3689/tcp 5353 5000/tcp 7000/tcp 6000-6009/udp 32768-60999/tcp 32768-60999/udp
