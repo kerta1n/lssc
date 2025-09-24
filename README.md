@@ -2,9 +2,9 @@
 LibreSpot + SnapCast server image to run multi-room Spotify casting
 
 #####
-### DEPRECATED: I have completely migrated to Music Assistant which does all of this with a much better UI, and is regularly updated.
+### DEPRECATED: I have completely migrated to [Music Assistant](https://www.music-assistant.io/installation/#docker-image) which does all of this with a much better UI, and is regularly updated.
 
-(All I have done personally is run the orignal Snapcast container, and then the MA container on the same host.)
+(You can use my [snapserver-docker](https://github.com/kerta1n/snapserver-docker) image along with the MA container on the same host.)
 #####
 
 [Dockerhub](https://hub.docker.com/r/kertain/lssc)
